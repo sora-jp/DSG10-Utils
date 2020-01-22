@@ -1,0 +1,17 @@
+{
+    "name": "DSG10 Utils Editor",
+    "references": [
+        "GUID:4e53cd6286089904e822608c6a83d97a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
