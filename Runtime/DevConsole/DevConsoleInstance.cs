@@ -35,6 +35,8 @@ public class DevConsoleInstance : MonoBehaviour
         {
             m_visible = !m_visible;
             m_canvas.enabled = m_visible;
+            cmdInput.gameObject.SetActive(m_visible);
+            if (m_visible) cmdInput.ActivateInputField();
         }
         //m_canvas.enabled = m_visible;
         Debug.developerConsoleVisible = false;
