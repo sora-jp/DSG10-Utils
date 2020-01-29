@@ -1,6 +1,6 @@
 {
   "name": "com.unitgames.dsg10utils",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "displayName": "DSG10 Utils",
   "description": "Includes the developer console and a simple image effect script",
   "type": "library",
