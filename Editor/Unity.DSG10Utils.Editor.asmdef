@@ -1,7 +1,9 @@
 {
     "name": "DSG10 Utils Editor",
     "references": [
-        "GUID:4e53cd6286089904e822608c6a83d97a"
+        "GUID:4e53cd6286089904e822608c6a83d97a",
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:a35efad8797223d499f8c68b1f545dbc"
     ],
     "includePlatforms": [
         "Editor"
