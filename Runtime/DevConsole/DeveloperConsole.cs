@@ -13,7 +13,7 @@ public static class DeveloperConsole
     static bool _initialized;
     static ConcurrentQueue<LogMessageData> _queuedMessages = new ConcurrentQueue<LogMessageData>();
 
-    static bool IsConsoleActive => Debug.isDebugBuild || Application.isEditor;
+    static bool IsConsoleActive => false;//Debug.isDebugBuild || Application.isEditor;
 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterAssembliesLoaded)]
     static void InitializeDebugHook()
